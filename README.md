@@ -1,8 +1,6 @@
-# reconframe
-ReconFrame - Advanced Reconnaissance Framework | 12 Integrated Tools | Smart Target Validation | Cinematic UI  A professional-grade reconnaissance framework that unifies 12 security tools with intelligent automation. Features cinematic startup animation, smart IP/domain detection, and beautifully formatted results.
-# **Complete Professional README.md for ReconFrame**
+# **Complete README.md for ReconFrame**
 
-Copy and paste this entire file:
+Copy and paste this entire code:
 
 ```markdown
 # 🔍 ReconFrame - Advanced Reconnaissance Framework
@@ -18,10 +16,6 @@ Copy and paste this entire file:
   <b>A cinematic, professional-grade reconnaissance framework that unifies 12 security tools with intelligent automation.</b>
   <br>
   <i>Built for security professionals, penetration testers, and ethical hackers.</i>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/reconframe/main/docs/demo.gif" alt="ReconFrame Demo" width="800">
 </p>
 
 ---
@@ -52,7 +46,7 @@ Copy and paste this entire file:
 - **Beautiful Output** - Color-coded, grouped findings
 - **Cinematic Experience** - MSF-style startup animation
 
-> "ReconFrame doesn't just run tools - it orchestrates them intelligently."
+> *"ReconFrame doesn't just run tools - it orchestrates them intelligently."*
 
 ---
 
@@ -211,7 +205,7 @@ Shows full raw output from every tool for deep analysis.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/reconframe.git
+git clone https://github.com/jishnuec/reconframe.git
 cd reconframe
 
 # Make executable
@@ -224,15 +218,9 @@ chmod +x reconframe.py
 ### Option 2: Download Direct
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/reconframe/main/reconframe.py
+wget https://raw.githubusercontent.com/jishnuec/reconframe/main/reconframe.py
 chmod +x reconframe.py
 ./reconframe.py
-```
-
-### Option 3: One-liner (with install script)
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/YOUR_USERNAME/reconframe/main/install.sh)
 ```
 
 ---
@@ -380,7 +368,7 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Fork the repository
-git clone https://github.com/YOUR_USERNAME/reconframe.git
+git clone https://github.com/jishnuec/reconframe.git
 cd reconframe
 
 # Create feature branch
@@ -440,7 +428,7 @@ By using this software, you acknowledge and agree that:
    - You must only scan systems you own OR have explicit written permission to test
    - Unauthorized scanning may violate laws in your jurisdiction
 
-2 **Legal Compliance**
+2. **Legal Compliance**
    - You are responsible for complying with all applicable laws
    - Different countries have different laws regarding security testing
    - Some activities may be illegal without proper authorization
@@ -490,7 +478,7 @@ If you find ReconFrame useful, please consider:
 |---------|---------|
 | **GitHub Issues** | Bug reports, feature requests |
 | **Email** | jishnuwhoopofficial@gmail.com |
-| **Twitter** | @YOUR_HANDLE |
+| **Twitter** | @jishnuec |
 
 ---
 
@@ -511,11 +499,11 @@ If you find ReconFrame useful, please consider:
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/reconframe/stargazers">
-    <img src="https://img.shields.io/github/stars/YOUR_USERNAME/reconframe?style=social">
+  <a href="https://github.com/jishnuec/reconframe/stargazers">
+    <img src="https://img.shields.io/github/stars/jishnuec/reconframe?style=social">
   </a>
-  <a href="https://github.com/YOUR_USERNAME/reconframe/network/members">
-    <img src="https://img.shields.io/github/forks/YOUR_USERNAME/reconframe?style=social">
+  <a href="https://github.com/jishnuec/reconframe/network/members">
+    <img src="https://img.shields.io/github/forks/jishnuec/reconframe?style=social">
   </a>
 </p>
-# Updated README
+```
