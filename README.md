@@ -8,33 +8,26 @@ Point it at a target. It figures out what tools make sense, runs them, and shows
 
 Comes with nmap, gobuster, nikto, sqlmap, whois, subfinder, dnsenum, dnsrecon, amass, theharvester, wafw00f and sslyze.
 
-## Quick start
 
-```bash
 git clone https://github.com/jishnuec/reconframe.git
 cd reconframe
 chmod +x reconframe.py
 ./reconframe.py
+
 How to use it
 Interactive mode – Just run it and pick options from the menu:
-
-bash
 ./reconframe.py
+
 Direct scan – Point it at a target and go:
-
-bash
 ./reconframe.py -t example.com
+
 Save results to a file:
-
-bash
 ./reconframe.py -t example.com -o results.txt
+
 See everything (verbose mode):
-
-bash
 ./reconframe.py -t example.com -v
-Pick specific tools:
 
-bash
+Pick specific tools:
 ./reconframe.py -t 10.0.0.1 --tools nmap,whois,gobuster
 How it works
 When you give it an IP address, it'll ask if you want to run DNS tools (they need domain names). Enter one, and it uses that just for DNS stuff while keeping the IP for network scans.
